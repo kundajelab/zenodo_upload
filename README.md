@@ -1,10 +1,11 @@
 # zenodo_upload
 Python script to upload files to Zenodo
 
-Usage: python zenodo_upload.py [INPUT_JSON] [ZENODO_ACCESS_TOKEN]
+Usage: `python zenodo_upload.py [INPUT_JSON] [ZENODO_ACCESS_TOKEN]`
 
 Example [INPUT_JSON]
 
+```
 {
     "author" : "Lee, Jin",
     "affiliation" : "Stanford University",
@@ -27,4 +28,4 @@ Example [INPUT_JSON]
         }
     ]
 }
-
+```
